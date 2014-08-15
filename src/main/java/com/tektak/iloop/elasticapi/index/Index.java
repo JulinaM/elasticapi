@@ -59,6 +59,7 @@ public class Index {
             response.setIndex(searchHit.getIndex());
             response.setIndexType(searchHit.getType());
             response.setSource(searchHit.getSource());
+            response.setIndexId(searchHit.getId());
             searchResponses.add(response);
         }
         return searchResponses;
